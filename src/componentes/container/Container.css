@@ -1,0 +1,15 @@
+body{
+    background-color: #b3724f;
+    color: #282827;
+    line-height: normal;
+}
+
+.item-container{
+    margin: auto 0px;
+    text-align: center;
+
+}
+
+.body-content{
+    background-color: #c57d56;
+}
