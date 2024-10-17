@@ -22,7 +22,7 @@ export const db = getFirestore(app)
 const misProductos = [
   {
     "name": "aguaOxigenada",
-    "image": "../../public/img/aguaOxigenada.jpg",
+    "image": "../../img/aguaOxigenada.jpg",
     "title": "Agua Oxigenada",
     "description": "Solución para desinfectar y limpiar.",
     "price": 20,
@@ -31,7 +31,7 @@ const misProductos = [
   },
   {
     "name": "algodon",
-    "image": "../../public/img/algodon.jpg",
+    "image": "../../img/algodon.jpg",
     "title": "Algodón",
     "description": "Algodón para uso diario.",
     "price": 15,
@@ -40,7 +40,7 @@ const misProductos = [
   },
   {
     "name": "anana",
-    "image": "../../public/img/anana.jpg",
+    "image": "../../img/anana.jpg",
     "title": "Ananá",
     "description": "Fruta tropical dulce.",
     "price": 30,
@@ -49,7 +49,7 @@ const misProductos = [
   },
   {
     "name": "arroz",
-    "image": "../../public/img/arroz.webp",
+    "image": "../../img/arroz.webp",
     "title": "Arroz",
     "description": "Alimento básico.",
     "price": 40,
@@ -58,7 +58,7 @@ const misProductos = [
   },
   {
     "name": "avena",
-    "image": "../../public/img/avena.webp",
+    "image": "../../img/avena.webp",
     "title": "Avena",
     "description": "Cereal nutritivo.",
     "price": 25,
@@ -67,7 +67,7 @@ const misProductos = [
   },
   {
     "name": "banana",
-    "image": "../../public/img/banana.png",
+    "image": "../../img/banana.png",
     "title": "Banana",
     "description": "Fruta rica en potasio.",
     "price": 20,
@@ -76,7 +76,7 @@ const misProductos = [
   },
   {
     "name": "banditasAdhesivas",
-    "image": "../../public/img/banditasAdhesivas.jpg",
+    "image": "../../img/banditasAdhesivas.jpg",
     "title": "Banditas Adhesivas",
     "description": "Para curar heridas.",
     "price": 10,
@@ -85,7 +85,7 @@ const misProductos = [
   },
   {
     "name": "café",
-    "image": "../../public/img/café.jpg",
+    "image": "../../img/café.jpg",
     "title": "Café",
     "description": "Bebida estimulante.",
     "price": 50,
@@ -94,7 +94,7 @@ const misProductos = [
   },
   {
     "name": "cebolla",
-    "image": "../../public/img/cebolla.jpg",
+    "image": "../../img/cebolla.jpg",
     "title": "Cebolla",
     "description": "Vegetal versátil.",
     "price": 10,
@@ -103,7 +103,7 @@ const misProductos = [
   },
   {
     "name": "colgate",
-    "image": "../../public/img/colgate.jpg",
+    "image": "../../img/colgate.jpg",
     "title": "Colgate",
     "description": "Pasta dental.",
     "price": 35,
@@ -112,7 +112,7 @@ const misProductos = [
   },
   {
     "name": "detergente",
-    "image": "../../public/img/detergente.jpg",
+    "image": "../../img/detergente.jpg",
     "title": "Detergente",
     "description": "Para lavar ropa.",
     "price": 25,
@@ -121,7 +121,7 @@ const misProductos = [
   },
   {
     "name": "frambuesas",
-    "image": "../../public/img/frambuesas.png",
+    "image": "../../img/frambuesas.png",
     "title": "Frambuesas",
     "description": "Fruta fresca y deliciosa.",
     "price": 40,
@@ -130,7 +130,7 @@ const misProductos = [
   },
   {
     "name": "frijoles",
-    "image": "../../public/img/frijoles.webp",
+    "image": "../../img/frijoles.webp",
     "title": "Frijoles",
     "description": "Alimento rico en proteínas.",
     "price": 30,
@@ -139,7 +139,7 @@ const misProductos = [
   },
   {
     "name": "frutillas",
-    "image": "../../public/img/frutillas.jpg",
+    "image": "../../img/frutillas.jpg",
     "title": "Frutillas",
     "description": "Fruta dulce y jugosa.",
     "price": 35,
@@ -148,7 +148,7 @@ const misProductos = [
   },
   {
     "name": "huevos",
-    "image": "../../public/img/huevos.jpg",
+    "image": "../../img/huevos.jpg",
     "title": "Huevos",
     "description": "Fuente de proteínas.",
     "price": 60,
@@ -157,7 +157,7 @@ const misProductos = [
   },
   {
     "name": "jabon",
-    "image": "../../public/img/jabon.jpg",
+    "image": "../../img/jabon.jpg",
     "title": "Jabón",
     "description": "Para el cuidado personal.",
     "price": 15,
@@ -166,7 +166,7 @@ const misProductos = [
   },
   {
     "name": "lecheEnPolvo",
-    "image": "../../public/img/lecheEnPolvo.jpg",
+    "image": "../../img/lecheEnPolvo.jpg",
     "title": "Leche en Polvo",
     "description": "Lácteo en polvo.",
     "price": 70,
@@ -175,7 +175,7 @@ const misProductos = [
   },
   {
     "name": "lechuga",
-    "image": "../../public/img/lechuga.jpg",
+    "image": "../../img/lechuga.jpg",
     "title": "Lechuga",
     "description": "Vegetal fresco.",
     "price": 15,
@@ -184,7 +184,7 @@ const misProductos = [
   },
   {
     "name": "limon",
-    "image": "../../public/img/limon.jpg",
+    "image": "../../img/limon.jpg",
     "title": "Limón",
     "description": "Fruta ácida.",
     "price": 10,
@@ -193,7 +193,7 @@ const misProductos = [
   },
   {
     "name": "maiz",
-    "image": "../../public/img/maiz.jpg",
+    "image": "../../img/maiz.jpg",
     "title": "Maíz",
     "description": "Cereal nutritivo.",
     "price": 25,
@@ -202,7 +202,7 @@ const misProductos = [
   },
   {
     "name": "manzana",
-    "image": "../../public/img/manzana.png",
+    "image": "../../img/manzana.png",
     "title": "Manzana",
     "description": "Fruta fresca y dulce.",
     "price": 20,
@@ -211,7 +211,7 @@ const misProductos = [
   },
   {
     "name": "matambre",
-    "image": "../../public/img/matambre.png",
+    "image": "../../img/matambre.png",
     "title": "Matambre",
     "description": "Corte de carne.",
     "price": 120,
@@ -220,7 +220,7 @@ const misProductos = [
   },
   {
     "name": "morcilla",
-    "image": "../../public/img/morcilla.png",
+    "image": "../../img/morcilla.png",
     "title": "Morcilla",
     "description": "Embutido tradicional.",
     "price": 80,
@@ -229,7 +229,7 @@ const misProductos = [
   },
   {
     "name": "morron",
-    "image": "../../public/img/morron.jpg",
+    "image": "../../img/morron.jpg",
     "title": "Morrón",
     "description": "Vegetal fresco.",
     "price": 12,
@@ -238,7 +238,7 @@ const misProductos = [
   },
   {
     "name": "morronVerde",
-    "image": "../../public/img/morronVerde.jpg",
+    "image": "../../img/morronVerde.jpg",
     "title": "Morrón Verde",
     "description": "Vegetal fresco.",
     "price": 12,
@@ -247,7 +247,7 @@ const misProductos = [
   },
   {
     "name": "palta",
-    "image": "../../public/img/palta.jpg",
+    "image": "../../img/palta.jpg",
     "title": "Palta",
     "description": "Fruta cremosa.",
     "price": 30,
@@ -256,7 +256,7 @@ const misProductos = [
   },
   {
     "name": "pañales",
-    "image": "../../public/img/pañales.jpg",
+    "image": "../../img/pañales.jpg",
     "title": "Pañales",
     "description": "Para bebés.",
     "price": 100,
@@ -265,7 +265,7 @@ const misProductos = [
   },
   {
     "name": "papelHigienico",
-    "image": "../../public/img/papelHigienico.jpg",
+    "image": "../../img/papelHigienico.jpg",
     "title": "Papel Higiénico",
     "description": "Para el cuidado personal.",
     "price": 15,
@@ -274,7 +274,7 @@ const misProductos = [
   },
   {
     "name": "salmon",
-    "image": "../../public/img/salmon.jpg",
+    "image": "../../img/salmon.jpg",
     "title": "Salmón",
     "description": "Pescado fresco.",
     "price": 250,
@@ -283,7 +283,7 @@ const misProductos = [
   },
   {
     "name": "tomate",
-    "image": "../../public/img/tomate.jpg",
+    "image": "../../img/tomate.jpg",
     "title": "Tomate",
     "description": "Vegetal fresco.",
     "price": 10,
@@ -292,7 +292,7 @@ const misProductos = [
   },
   {
     "name": "zanahoria",
-    "image": "../../public/img/zanahoria.jpg",
+    "image": "../../img/zanahoria.jpg",
     "title": "Zanahoria",
     "description": "Vegetal fresco.",
     "price": 15,
