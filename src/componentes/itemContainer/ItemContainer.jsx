@@ -32,8 +32,9 @@ const ItemContainer = () => {
   return (
     <div className="item-container row">
       {items.map(item => (
-        <Item 
+        <Item
           key={item.id}
+          id={item.id} // Pasa el ID aquí
           image={item.image}
           title={item.title}
           description={item.description}

@@ -22,3 +22,8 @@ header {
 #head{
     background-color: #282827;
 }
+.dropDownLinks{
+    a{
+        color: black;
+    }
+}

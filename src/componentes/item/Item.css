@@ -1,13 +1,17 @@
 .producto{
     border: 1px #000000 solid;
-    background-color: #282827;
-    padding: 50px;
-    margin: 20px;
+    padding: 25px;
     background-color: #ffb48A;
-    
 }
-
+.items{
+    padding: 50px;
+    margin: 10px;
+}
 img{
     width: 250px;
     height: 200px;
+}
+.linkTo{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
 }

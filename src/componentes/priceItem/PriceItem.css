@@ -1,0 +1,7 @@
+.producto div{
+    img, p, h2{
+        text-align: center;
+        margin: auto;
+    }
+    text-align: center;
+}
